@@ -31,6 +31,13 @@ plt.scatter(test_X,test_y)
 plt.plot(test_X,predictions)
 plt.show()
 
+# After fitting: what the model stores
+# Inside pipe:
+    # scaler.mean_, scaler.scale_
+    # model.coef_
+    # model.intercept_
+# That’s it.
+
 # print(pipe.named_steps["model"].coef_)
 # print(pipe.named_steps["model"].intercept_)
 
